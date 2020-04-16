@@ -1,0 +1,34 @@
+.swiper{
+  height:400rpx;
+  width:100%;
+  background-color: beige;
+}
+.buttom{
+  height:725rpx;
+  background-color: black;
+  position:relative;
+}
+.buttom .box{
+  height:95%;
+  width: 90%;
+  background-color: #fff;
+  position: absolute;
+  top:-33rpx;
+  left:20rpx;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  position:relative;
+
+}
+.top{
+  height:100rpx;
+  padding:10rpx;
+  margin-bottom:40rpx ;
+  display: flex;
+  justify-content: space-between;
+}
+.top .top_c{
+  line-height: 48rpx;
+  height:48rpx;
+  display: block;
+}

@@ -1,0 +1,27 @@
+<view class="page">
+       <view class="swiper">
+    <!-- 轮播 -->
+  </view>
+  <view class="buttom">
+      <view class="box">
+         <view class="top">
+          <view class="top_c">
+            <van-icon name="location-o" size="24px"/>
+           广州
+          </view>
+           <view class="top_c">
+           查看记录
+            <van-icon name="arrow" size="21px"/>
+          </view>
+         </view>
+         <view class="con"  >
+          <van-cell title="模拟考成绩" is-link value="广东 文科 500" />
+          <van-cell title="本科" is-link value="" arrow-direction="down" />
+         </view>
+          <van-button type="primary" style="width:90%;position:absolute;bottom:50px;left:5%;" block>开始匹配</van-button>
+      </view>
+  </view>
+  <van-notice-bar class="bar"
+  left-icon="clock-o" text="足协杯战线连续第2年上演广州德比战，上赛季半决赛上恒大以两回合5-3的总比分淘汰富力。"
+      />
+</view>
